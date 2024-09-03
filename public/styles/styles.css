@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#top{
+    height: 80px;
+    width: 100%;
+    background-color: lawngreen;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    background-color: lemonchiffon;
+    margin-top: 0;
+}
+h3{
+    text-align: center;
+}
+.main-head{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh; 
+}
+footer{
+    background-color: chartreuse;
+}
+#foot{
+    text-align: center;
+}
+
+.vertical-form {
+    display: flex;             
+    flex-direction: column;    
+    align-items: flex-start;   
+    max-width: 400px;          
+    margin: 20px auto;         
+    padding: 20px;             
+    border: 1px solid #ccc;   
+    border-radius: 5px;        
+    background-color: #f9f9f9; 
+}
+
+.form-group {
+    margin-bottom: 15px;       
+}
+
+.vertical-form label {
+    display: block;            
+    font-weight: bold;         
+    margin-bottom: 5px;        
+}
+
+.vertical-form input[type="text"],
+.vertical-form textarea {
+    width: 100%;               
+    padding: 8px;              
+    border: 1px solid #ccc;   
+    border-radius: 4px;        
+    box-sizing: border-box;    
+}
+
+.vertical-form button {
+    padding: 10px 15px;        
+    background-color: #4CAF50;
+    color: white;             
+    border: none;              
+    border-radius: 4px;        
+    cursor: pointer;           
+}
+
+.vertical-form button:hover {
+    background-color: #45a049; 
+}
