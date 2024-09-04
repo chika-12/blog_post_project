@@ -1,0 +1,25 @@
+<%- include("partials/header.ejs") %>
+
+<header class="main-head">
+    <form action= "submit" method="POST" class="vertical-form">
+        <div class="form-group">
+            <label>Name: <input type="text" name="street" /></label>
+        </div>
+        
+        <div class="form-group">
+            <label>Write your blog: <textarea name="blog"></textarea></label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <div class="post-cont">
+        <% if (locals.post != null) {  %>
+            <%for(let index = 0; index < locals.post.length; index++){%>
+                <div class="post-container"><p><%= locals.post[index] %></p></div>
+            <% } %>
+        <% } else{ %>
+            <h4>No Post made<h4>
+        <% } %>
+    </div>
+</header>
+
+<%- include("partials/footer.ejs") %>

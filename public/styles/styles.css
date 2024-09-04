@@ -78,3 +78,18 @@ footer{
 .vertical-form button:hover {
     background-color: #45a049; 
 }
+
+.post-container {
+    max-height: 300px; /* Set the maximum height for the container */
+    overflow-y: auto;  /* Add vertical scrolling if content exceeds max height */
+    padding: 10px;     /* Optional: Add some padding for better aesthetics */
+    border: 1px solid #ccc; /* Optional: Add a border to distinguish the container */
+}
+.post-cont {
+    max-height: 300px;       /* Set the maximum height for the container */
+    overflow-y: auto;        /* Add vertical scrolling if content exceeds max height */
+    padding: 10px;           /* Optional: Add some padding for better aesthetics */
+    border: 1px solid #ccc;  /* Optional: Add a border to distinguish the container */
+    word-wrap: break-word;   /* Ensure long words break and wrap to the next line */
+    white-space: normal;     /* Allow text to wrap normally */
+}
